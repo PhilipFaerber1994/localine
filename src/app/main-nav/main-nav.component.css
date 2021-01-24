@@ -1,0 +1,62 @@
+.navbar{
+    background-color: #4BBF6A;
+    border-bottom: 1px solid white;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    color: white;
+}
+
+.navbar-toggler-icon .line{
+    border-color: white;
+}
+
+.nav-link{
+    color: white;
+    font-weight: bold;
+    margin: 15px 15px 15px 0;
+}
+
+.nav-link :hover{
+    content: '';
+    background: white; 
+    color: #4BBF6A;
+}
+
+.nav-link.active{
+    content: '';
+    background: white; 
+    color: #4BBF6A;
+
+}
+/* 
+.nav-link.active:after{
+    /* text-decoration: underline;
+    content: '';
+    height: 2px;
+    background: white; 
+    display:block;
+    margin-top: 2px; 
+} */
+
+.profile-select{
+    background-color: #4BBF6A;
+    color: white;
+    border: none;
+}
+
+.profile-select:hover{
+    background-color: #4BBF6A;
+}
+
+.profile-select-option{
+    padding: 6px;
+    color: white;
+    background-color: #9E9E9E;
+}
+
+.localine-logo{
+    font-size: 35px;
+    margin-left: 15px;
+}

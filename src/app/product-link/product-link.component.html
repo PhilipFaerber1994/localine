@@ -1,0 +1,24 @@
+
+    <div class="container product-link">
+        <div class="row">
+            <div class="col-4">
+                <img src="{{ products[productIdCounter]['imageUrl'] }}" id="image" width="60%">
+            </div>
+            <div class="col-3">
+                <p>{{ products[productIdCounter]["productName"] }}</p>
+                <p>Beschreibung: {{ products[productIdCounter]["productDescription"] }}</p>
+                <p class="highlights">Preis: {{ products[productIdCounter]["price"] | currency:"EUR":true }}</p>
+                <p>Geschäft: Überall</p>
+                
+            </div>
+            <div class="col-3">
+                <button class="buttons" (click)="subProduct()">-</button><span id="amountProducts">{{ amountOffProducts }}</span><button class="buttons" (click)="addProduct()">+</button>
+                <br>
+                <button class="buttons" (click)="addToShoppingCard()">in den Einkaufswagen</button>
+            </div>
+            <div class="col-1">
+              
+                <input id="add-to-favorite" type="checkbox">
+            </div>
+        </div>
+    </div>

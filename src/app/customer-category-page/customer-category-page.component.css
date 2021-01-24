@@ -1,0 +1,17 @@
+.navbar{
+    background-color: #4BBF6A;
+}
+
+.navbar-toggler-icon .line{
+    border-color: white;
+}
+
+.nav-link{
+    color: white;
+    margin: 15px 15px 15px 0;
+}
+
+.nav-link :hover{
+    border-bottom: 2px solid white;
+    padding: +5px;
+}

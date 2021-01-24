@@ -1,0 +1,157 @@
+[
+    {
+        "id": 1,
+        "productName": "Apfel",
+        "productDescription": "Runde süß-saure Frucht",
+        "category": "Lebensmittel",
+        "price": 0.4,
+        "inventory": 700,
+        "availableAt": [
+            "Aldi",
+            "Rewe",
+            "Real",
+            "Kaufland",
+            "Obstladen Meier"
+        ],
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/817pWWEtthL._SX522_.jpg"
+    },
+    {
+        "id": 2,
+        "productName": "Birne",
+        "productDescription": "Wie Apfel, nur länglicher und anders",
+        "category": "Lebensmittel",
+        "price": 0.5,
+        "inventory": 827,
+        "availableAt": [
+            "Aldi",
+            "Rewe",
+            "Real",
+            "Kaufland",
+            "Obstladen Meier"
+        ],
+        "imageUrl": "https://www.kochschule.de/sites/default/files/images/kochwissen/470/birne.jpg"
+    },
+    {
+        "id": 3,
+        "productName": "Banane",
+        "productDescription": "gelbe, lange Frucht",
+        "category": "Lebensmittel",
+        "price": 0.45,
+        "inventory": 700,
+        "availableAt": [
+            "Aldi",
+            "Rewe",
+            "Real",
+            "Kaufland",
+            "Obstladen Meier"
+        ],
+        "imageUrl": "https://www.kochschule.de/sites/default/files/images/kochwissen/440/banane.jpg"
+    },
+    {
+        "id": 4,
+        "productName": "Brot",
+        "productDescription": "Hergestellt entweder aus Weizen- Dinkel- oder Roggenmehl",
+        "category": "Lebensmittel",
+        "price": 4.99,
+        "inventory": 90,
+        "availableAt": [
+            "Aldi",
+            "Rewe",
+            "Real",
+            "Kaufland",
+            "Obstladen Meier"
+        ],
+        "imageUrl": "https://www.alnatura.de/-/media/Alnatura/B2C/Bilder/magazin/warenkunde/2400x1350/Gersterbrot_1350.jpg"
+    },
+    {
+        "id": 5,
+        "productName": "Käse",
+        "productDescription": "Leckeres, zartschmelzendes Produkt, das eigentlich nur aus vergammelter Milch besteht.",
+        "category": "Lebensmittel",
+        "price": 2.50,
+        "inventory": 800,
+        "availableAt": [
+            "Aldi",
+            "Rewe",
+            "Real",
+            "Kaufland",
+            "Obstladen Meier"
+        ],
+        "imageUrl": "https://image.stern.de/7057686/t/R7/v5/w1440/r1.7778/-/emmentaler-loecher.jpg"
+    },
+    {
+        "id": 6,
+        "productName": "Salami",
+        "productDescription": "Einer der Hauptzutaten für die beste Pizzasorte",
+        "category": "Lebensmittel",
+        "price": 6.79,
+        "inventory": 34,
+        "availableAt": [
+            "Aldi",
+            "Rewe",
+            "Real",
+            "Kaufland",
+            "Obstladen Meier"
+        ],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Salami_aka.jpg"
+    },
+    {
+        "id": 7,
+        "productName": "Pudding",
+        "productDescription": "gekühlte Süßspeise. Wahlweise mit Vanille, Schokolade oder Haselnuss",
+        "category": "Lebensmittel",
+        "price": 0.99,
+        "inventory": 1000,
+        "availableAt": [
+            "Aldi",
+            "Rewe",
+            "Real",
+            "Kaufland",
+            "Obstladen Meier"
+        ],
+        "imageUrl": "https://staupitopia-zuckerfrei.de/wp-content/uploads/2020/05/low-carb-pudding-selber-machen-img.jpg"
+    },
+    {
+        "id": 8,
+        "productName": "Zahnpasta",
+        "productDescription": "Wirkt vorbeugend gegenüber Karies und anderen Zahnkrankheiten",
+        "category": "Drogerie",
+        "price": 1.70,
+        "inventory": 590,
+        "availableAt": [
+            "Aldi",
+            "Rewe",
+            "Real",
+            "Kaufland",
+            "Obstladen Meier"
+        ],
+        "imageUrl": "https://static.zentrum-der-gesundheit.de/img/bc23b1907db82e361642e59f59f8cdea"
+    },
+    {
+        "id": 9,
+        "productName": "Deo",
+        "productDescription": "Für erfrischenden Duft rund um die Uhr",
+        "category": "Drogerie",
+        "price": 4.10,
+        "inventory": 672,
+        "availableAt": [
+            "Aldi",
+            "Rewe",
+            "Real",
+            "Kaufland",
+            "Obstladen Meier"
+        ],
+        "imageUrl": "https://amp.rundschau-online.de/image/32582960/max/1920/1080/55ec06e009c2d10122525b8008a60256/NC/deoroller-helfen-gegen-mueffeln.jpg"
+    },
+    {
+        "id": 10,
+        "productName": "Playstation 5",
+        "productDescription": "Garantierter Spielspaß für die ganze Familie",
+        "category": "Elektro",
+        "price": 499,
+        "inventory": 0,
+        "availableAt": [
+        ],
+        "imageUrl": "https://stadt-bremerhaven.de/wp-content/uploads/2020/06/PlayStation-5.jpg"
+    }
+]

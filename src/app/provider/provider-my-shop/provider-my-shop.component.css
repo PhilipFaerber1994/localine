@@ -1,0 +1,37 @@
+.container{
+    margin-top: 15px;
+}
+
+table{
+    border: 1px solid gray;
+}
+
+.my-shop-table{
+    border: 1px solid gray;
+}
+
+.my-shop-table th, td{
+    padding: 15px;
+    border: 1px solid gray;
+}
+
+.link-to-add-product{
+    border: 2px solid #4BBF6A;
+    position: fixed;
+    margin-right: 40px;
+    background-color: white;
+    color: #4BBF6A;
+    font-weight: bold;
+    border-radius: 60px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    padding-top: 42px;
+}
+
+.link-to-add-product:hover{
+    text-decoration: none;
+    background-color: #4BBF6A;
+    color: white;
+
+}

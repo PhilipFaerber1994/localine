@@ -1,0 +1,49 @@
+hr{
+    background-color: #4BBF6A;
+}
+
+/*Category*/
+.category-link{
+    color: #4BBF6A;
+    padding: 4px;
+}
+
+.category-col{
+    margin: 16px;
+}
+
+/*other filter*/
+.container{
+    background-color: #EFEFEF;
+    margin-top: 15px;
+    padding: 15px;
+}
+
+.filter-buttons{
+    border: 2px solid #4BBF6A;
+    font-weight: bold;
+    margin: 15px;
+    border-radius: 50px;
+    padding: 15px;
+    background-color: white;
+    color: #4BBF6A;
+}
+
+.filter-buttons:hover{
+    background-color: #4BBF6A;
+    color: white;
+}
+
+.filter-header{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.filter-item{
+    padding: 3px;
+    margin: 6px;
+}
+
+#toggle-button{
+    border: 1px solid #4BBF6A;
+}

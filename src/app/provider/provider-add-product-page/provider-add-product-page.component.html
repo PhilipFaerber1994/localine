@@ -1,0 +1,64 @@
+<div class="container add-product">    
+    <div class="row">        
+        <h3 class="col">Manuelle Eingabe</h3>     
+    </div>
+    <br>
+    <div class="row">  
+        <form #postProduct="ngForm" (ngSubmit)="onSubmit(postProduct.value)">
+            <div class="col">
+                <p>Geben Sie einfach alle benötigten Daten ein</p>
+            <br>
+            
+            <table>
+                <tr>
+                    <th>id</th>
+                    <th>Produktname</th>
+                    <th>Beschreibung</th>
+                    <th>Kategorie</th>
+                    <th>Menge</th>
+                    <th>Preis</th>
+                    <th>Bild-URL</th>
+                </tr>
+                <tr>
+                    <td><input type="text" name="id" ngModel ></td>
+                    <td><input type="text" name="productName" ngModel ></td>
+                    <td><input type="text" name="productDescription" ngModel ></td>
+                    <td><input type="text" name="category" ngModel ></td>
+                    <td><input type="text" name="inventory" ngModel ></td>
+                    <td><input type="text" name="price" ngModel ></td>
+                    <td><input type="text" name="imageUrl" ngModel ></td>
+                </tr>   
+            </table>
+            <br>
+            </div>     
+            
+            <div class=" manually-button col">
+                <button type="submit">hinzufügen</button>
+                <button>Eingaben löschen</button>
+                <a class="col" id="back-button" [routerLink]="['/provider']">Zurück</a>   
+            </div>
+        </form>
+    </div>
+    <br>
+    <hr>
+    <div class="row">
+        <h3>Automatisch per Drag-and-Drop</h3>
+    </div>
+    <br>
+    <div class="row">
+        <p>Oder fürgen Sie Lieferscheine per Drag-and-Drop in das unten liegende Feld ein.
+            <br>
+            <b>Hinweis:</b> Alle sich auf dem Lieferschein befindenden Informationen werden lediglich für die Verarbeitung 
+            des Lieferscheins und der Einbindung in Ihren Shop verwendet.
+        </p>
+        <div class="drag-and-drop">
+            <p class="drag-and-drop-text">HIER LIEFERSCHEINE EINFÜGEN FÜR EINE SCHNELLE BEARBEITUNG</p>
+        </div>  
+        <div class="col">
+            <button>hinzufügen</button>
+            <a class="col" id="back-button" [routerLink]="['/provider']">Zurück</a>   
+        </div>
+        
+    </div>
+      
+</div>

@@ -1,0 +1,84 @@
+<div class="container filter">
+  <button class="filter-buttons" id="toggle-button" (click)="showFilters()"  >
+    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-filter" fill="currentColor" xmlns="http://www.w3.org/2000/svg" style="transform: rotate(90);">
+      <path fill-rule="evenodd" d="M6 10.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"/>
+    </svg>
+  </button>
+  <div  *ngIf="openFilter == true">
+  <!--Categories
+    ***********************************************************************
+  -->
+    
+  <div class="row">
+    <div class="col category-col">
+      <a class="category-link" href="">Lebensmittel</a>
+    </div>
+    <div class="col category-col">
+      <a class="category-link" href="">Drogerie</a>
+    </div>
+    <div class="col category-col">
+      <a class="category-link" href="">Bücher</a>
+    </div>
+    <div class="col category-col">
+      <a class="category-link" href="">Elektrogeräte</a>
+    </div>
+    <div class="col category-col">
+      <a class="category-link" href="">Spielzeug</a>
+    </div>
+    <div class="col category-col">
+      <a class="category-link" href="">Games</a>
+    </div>
+  </div>
+
+  <hr>
+
+  <!--Filter
+    ***********************************************************************
+  -->
+    <div class="row">
+      <div class="col-sm">
+        <span class="filter-header filter-item">Preis: </span><br>
+        <input type="number" class="filter-item" placeholder="Von"><br>
+        <input type="number" class="filter-item" placeholder="Bis">
+      </div>
+
+      <div class="col-sm">
+        <span class="filter-header filter-item">Entfernung (in km): </span><br>
+        <input type="number" class="filter-item"><br>
+      </div>
+
+      <div class="col-sm">
+        <span class="filter-header filter-item">Datum</span><br>
+        <select class="filter-item">
+            <option>neueste zuerst</option>
+            <option>älteste zuerst</option>
+        </select>
+      </div>
+      
+      <div class="col-sm">
+        <span class="filter-header filter-item">Geschäft</span><br>
+        <select class="filter-item">
+            <option>Metzgerei Knopf</option>
+            <option>Bäckerei Müller</option>
+            <option>Klamottenshop Meier</option>
+        </select>
+      </div>
+
+      <div class="col-sm">
+        <span class="filter-header filter-item">Hersteller</span><br>
+        <select class="filter-item">
+            <option>Adidas</option>
+            <option>Apple</option>
+            <option>Nintendo</option>
+            <option>Sony</option>
+            <option>Knorr</option>
+            <option>Schwarzkopf</option>
+            <option>Tommy Hilfiger</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+        <button class="filter-buttons">Filter anwenden</button>
+    </div>
+  </div>
+  </div>

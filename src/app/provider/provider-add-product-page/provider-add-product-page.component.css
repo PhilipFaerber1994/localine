@@ -1,0 +1,72 @@
+h1, h2, h3, h4, h5{
+    margin-top: 40px;
+}
+
+hr{
+    border: 1.5px solid #4BBF6A;
+}
+
+th, td, input{
+    width: 150px;
+}
+
+button{
+    border: 2px solid #4BBF6A;
+    border-radius: 50px;
+    margin: 15px;
+    padding: 15px;
+    background-color: white;
+    color: #4BBF6A;
+    margin-left: 0;
+}
+
+button:hover{
+    background-color: #4BBF6A;
+    color: white;
+}
+
+.drag-and-drop{
+    border: 6px dashed #4BBF6A;
+    width: 100%;
+    height: 400px;
+    background-color: rgba(75, 191, 106, 0.5);
+}
+
+.manually-button{
+    margin-left: 0;
+}
+
+.drag-and-drop-text{
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    color: white;
+    padding-top: 15%;
+}
+
+.drag-and-drop:hover{
+    background-color: rgba(75, 191, 106, 0.3);
+    color: #EBEBEB;
+}
+
+.col{
+    margin-left: 0;
+}
+
+#back-button{
+    margin-right: 0;
+    border: 2px solid #C04B72;
+    border-radius: 50px;
+    margin: 15px;
+    padding: 15px;
+    background-color: #C04B72;
+    color: white;
+    margin-left: 0;
+}
+
+#back-button:hover{
+    text-decoration: none;
+    background-color: white;
+    color: #C04B72;
+}
+

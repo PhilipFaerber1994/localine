@@ -1,0 +1,50 @@
+input[type=text]{
+    margin-top: 15px;
+    margin-right: 20px;
+    height: fit-content;
+    width: 320px;
+    text-align: right;
+    background-image: url("src\assets\search.svg");
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    color: #4BBF6A;
+}
+
+.navbar{
+    background-color: #4BBF6A;
+    opacity: 0.65;
+}
+
+.navbar-toggler-icon .line{
+    border-color: white;
+}
+
+.nav-link{
+    color: white;
+    margin: 15px 15px 15px 0;
+}
+
+.nav-link :hover{
+    border-bottom: 2px solid white;
+    
+}
+
+.nav-link.active{
+    border-bottom: 2px solid white;
+}
+
+.profile-select{
+    background-color: #4BBF6A;
+    color: white;
+    border: none;
+}
+
+.profile-select:hover{
+    background-color: #4BBF6A;
+}
+
+.profile-select-option{
+    padding: 6px;
+    color: white;
+    background-color: #9E9E9E;
+}

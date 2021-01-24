@@ -1,0 +1,29 @@
+
+<nav class="navbar navbar-expand-lg navbar-custom">
+    <button class="navbar-toggler">
+        <span class="navbar-toggler-icon line" data-toggle="collapse" data-target="#navbarMenu"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarMenu">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">                
+                <a class="nav-link" [routerLink]="[ '/provider' ]">
+                    <span>Mein Shop</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="kennzahlen"><span>Kennzahlen</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="**">
+                    <select class="profile-select">
+                        <option class="profile-select-option"> <a>Profil ansehen</a>
+                        </option>
+                        <option class="profile-select-option"><a>Einstellungen</a></option>
+                        <option class="profile-select-option"><a>Abmelden</a></option>
+                    </select>
+                </a>
+                
+            </li>
+        </ul>
+    </div>
+</nav>
